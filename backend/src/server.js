@@ -13,7 +13,11 @@ const PORT = process.env.PORT || 5000;
 app.use(cors()); // Allows your React frontend to communicate with this backend
 app.use(express.json()); // Allows Express to read JSON data sent in requests
 
-// Basic Health Check Route
+// Basic Health Check Routes
+app.get('/', (req, res) => {
+    res.send('AI Interview Platform Backend is Running!');
+});
+
 app.get('/api/health', (req, res) => {
     res.status(200).json({
         status: 'success',
