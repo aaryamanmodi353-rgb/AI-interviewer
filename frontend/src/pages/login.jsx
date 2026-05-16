@@ -122,10 +122,10 @@ const Login = () => {
               <BrainCircuit className="w-8 h-8 text-white" />
             </div>
             <h2 className="text-3xl font-extrabold text-slate-900 dark:text-white tracking-tight text-center drop-shadow-md">
-              {isLoginView ? 'Welcome Back' : 'System Initialize'}
+              {isLoginView ? 'Welcome Back' : 'Create an Account'}
             </h2>
             <p className="text-slate-500 dark:text-zinc-400 font-medium mt-2 text-center text-sm">
-              {isLoginView ? 'Authenticate to access the neural net.' : 'Create your digital footprint.'}
+              {isLoginView ? 'Please sign in to continue.' : 'Sign up to get started.'}
             </p>
           </div>
 
@@ -201,7 +201,7 @@ const Login = () => {
                 'Processing...'
               ) : (
                 <>
-                  {isLoginView ? 'Access Dashboard' : 'Initialize Account'}
+                  {isLoginView ? 'Sign In' : 'Sign Up'}
                   <ArrowRight className="w-5 h-5" />
                 </>
               )}
@@ -222,9 +222,9 @@ const Login = () => {
               }}
               className="text-slate-500 dark:text-zinc-400 hover:text-slate-800 dark:hover:text-white text-sm font-medium transition-colors"
             >
-              {isLoginView ? "Don't have clearance? " : 'Already initialized? '}
+              {isLoginView ? "Don't have an account? " : 'Already have an account? '}
               <span className="text-indigo-600 dark:text-indigo-400 font-bold hover:underline decoration-indigo-400 underline-offset-4">
-                {isLoginView ? "Request access" : 'Login here'}
+                {isLoginView ? "Sign up" : 'Sign in'}
               </span>
             </button>
           </div>
