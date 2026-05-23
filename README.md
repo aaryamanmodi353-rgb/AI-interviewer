@@ -2,7 +2,7 @@
 
 An independently developed, end-to-end full-stack application designed to conduct dynamic, role-specific mock interviews. This platform leverages ReactJS for a responsive frontend and NodeJS/Express for robust backend processing, simulating real-time interview environments with immediate, actionable feedback.
 
-**Live Demo:** [Insert Deployment Link Here]
+**Live Demo:** https://ai-interviewer-zeta-six.vercel.app/
 
 ## 🛠 Tech Stack (MERN)
 This project was built from scratch to demonstrate proficiency in modern web frameworks and full-stack architecture:
